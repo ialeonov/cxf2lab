@@ -25,7 +25,7 @@ jobs:
         run: python setup.py py2app
 
       - name: Upload built .app
-        uses: actions/upload-artifact@3b5a26e03a2be1b59c0e6c4a4425b2a6db06ae64
+        uses: actions/upload-artifact@v3.1.4
         with:
           name: CXF2Lab-app
           path: dist/*.app
